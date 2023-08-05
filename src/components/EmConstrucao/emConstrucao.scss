@@ -1,0 +1,45 @@
+@import '../../assets/styles/common/utils.scss';
+
+.wrapper-em-construcao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+
+  img {
+    height: 90px;
+    margin-bottom: 2rem;
+    animation-duration: 3s;
+    animation-name: rocket;
+    animation-iteration-count: infinite;
+
+    @include responsiveMin($tablet) {
+      height: 160px;
+    }
+  }
+
+  p {
+    text-align: center;
+    color: var(--gray-300);
+    font-size: 0.875rem;
+
+    &:last-child {
+      margin-top: 0.5rem;
+      color: rgb(139, 122, 57);
+    }
+  }
+
+  @keyframes rocket {
+    0% {
+      transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(10%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+}

@@ -13,3 +13,12 @@
   --purple-100: #8284FA;
   --purple-500: #5E60CE;
 }
+
+body {
+  background-color: var(--gray-600);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
