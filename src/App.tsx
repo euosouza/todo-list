@@ -1,9 +1,9 @@
-import { EmConstrucao } from "./components/EmConstrucao"
+import { Header } from "@components/Header"
 
 function App() {
   return (
     <>
-      <EmConstrucao />
+      <Header />
     </>
   )
 }

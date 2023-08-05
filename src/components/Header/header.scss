@@ -1,0 +1,22 @@
+@import '../../assets/styles/common/utils.scss';
+
+.header {
+  background-color: var(--gray-700);
+  padding: toRem(48px) 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include responsiveMin($tablet) {
+    padding: toRem(76px) 0;
+  }
+
+  .logo {
+    height: 32px;
+
+    @include responsiveMin($tablet) {
+      height: 48px;
+    }
+  }
+}
