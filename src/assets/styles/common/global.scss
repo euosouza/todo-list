@@ -12,8 +12,15 @@
 
   --purple-100: #8284FA;
   --purple-500: #5E60CE;
+
+  --red-500: #E25858;
 }
 
 body {
   background-color: var(--gray-600);
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--blue-100);
 }

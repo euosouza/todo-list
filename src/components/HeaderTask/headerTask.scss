@@ -1,0 +1,38 @@
+@import '../../assets/styles/common/utils.scss';
+
+.header-task {
+  margin-top: toRem(64px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .wrapper-create-tasks, .wrapper-done-tasks {
+    display: flex;
+    align-items: center;
+    gap: toRem(8px);
+
+    .title-badge {
+      font-size: toRem(14px);
+      font-weight: bold;
+    }
+    .badge {
+      color: var(--gray-200);
+      background-color: var(--gray-400);
+      border-radius: calc($border-radius * 3);
+      padding: toRem(2px) toRem(10px);
+      font-size: toRem(12px);
+    }    
+  }
+
+  .wrapper-create-tasks {
+    .title-badge {
+      color: var(--blue-100);
+    }
+  }
+
+  .wrapper-done-tasks {
+    .title-badge {
+      color: var(--purple-100);
+    }
+  }
+}
