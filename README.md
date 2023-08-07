@@ -1,6 +1,7 @@
 # To-do list
 
 Aplicação de controle de tarefas, estilo to-do list
+**Link publicação:** https://euosouza.github.io/todo-list/
 
 ## Funcionalidades
 
